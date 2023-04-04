@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms and input</h1>
+
+    <select name="menu" id="menu"></select>
+    <select name="contact" id="contact"></select>
+
+    <!--
+        <a href="#subtitle2">This goes to the element with the id subtitle2</a>
+
+        <h2 id="subtitle2">This is my second subtitle</h2>
+
+        <a href="/blog/#subtitle2">This goes to the element with the id subtitle2 on the page "blog"</a>  
+    -->
+    <form action="" method="post">
+        <fieldset id="personal_info">
+            <legend>Personal Info</legend>
+            <label for="text">Name surname</label>
+            <input type="text" id="text" required>
+        
+            <br>
+        
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+        
+            <br>
+        
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+    
+            <label for="number">Enter number</label>
+            <input type="number" id="number" placeholder="number" tabindex="0">
+    
+            <label for="url">Enter url</label>
+            <input type="url" id="url" required>
+    
+            <label for="tel">Phone number</label>
+            <input type="tel" id="tel" placeholder="e.g. +41 78 123 45 67" required>
+    
+            <label for="search">Search keywords</label>
+            <input type="search" id="search">
+    
+            <button type="submit">Submit</button>
+        </fieldset>
+
+        <br>
+
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    </form>
+
+    <video width="320" height="240" controls>
+        <source src="video_tutrorial.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>
